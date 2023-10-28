@@ -140,7 +140,7 @@ h4 span{
     width: 100%;
 }
 
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 480px){
     .about{
         /* display: none; */
         margin: 190px 0 0 0;
