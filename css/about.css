@@ -140,99 +140,110 @@ h4 span{
     width: 100%;
 }
 
-@media screen and (max-width: 479px){
+@media only screen and (max-width: 479px){
     .about{
-        border: solid;
-        padding: 0px 20px;
-        width: 120%;
+        /* display: none; */
         margin: 190px 0 0 0;
-        /* padding: 0 10px; */
     }
     .about h1{
-        font-size: 25px;
+        font-size: 20px;
+        width: 114px;
         /* margin-left: 25px; */
     }
     .about h4{
-        font-size: 25px;
+        font-size: 18px;
+        margin: 0px;
     }
 
     .about-more{
-        display: inline;
+        display: block;
     }
     .resume{
         position: relative;
-        top: 200px;
+        top: 320px;
     }
     .resume img{
         position: relative;
-        top: 170px;
-        left: -80px;
-        width: 140px;
+        /* top: 270px; */
+        left: -90px;
+        width: 100px;
         animation: none;
         border-radius: 30%;
-        /* display: none; */
     }
     .resume i{
         position: relative;
-        top: 150px;
-        left: -110px;
-        width: 100px;
+        top: -30px;
+        left: -140px;
+        width: 80px;
+        font-size: 15px;
+        padding: 6px 10px 8px 10px;
     }
     .resume span{
-        font-size: 23px;
-        margin-left: 4px;
+        font-size: 17px;
     }
     
     .other{
-        height: 350px;
+        position: relative;
+        /* height: 350px; */
+        background: transparent;
+    }
+    .other label{
+        font-size: 20px;
     }
     .education{
         position: relative;
         top: -300px;
+        left: -10px;
     }
     .edu-sum p{
         margin: 10px 0px;
-        font-size: 23px;
+        font-size: 15px;
     }
     .edu-sum p span{
         margin-left: 32px;
-        font-size: 16px;
+        font-size: 12px;
         padding: 2px 5px;
     }
     .edu-sum .collage{
         position: relative;
         top: -10px;
         font-size: 15px;
-        background-color: transparent;
+        background: transparent;
+    }
+    .edu-sum .edu-about{
+        font-size: 18px;
+        margin: 0px;
     }
 
     .skill{
         position: relative;
         top: -300px;
+        left: -10px;
+        /* margin: -100px; */
         background: transparent;
     }
 
     .skill-sum{
         display: block;
         position: relative;
-        left: 160px;
-        margin-left: 20px;
+        left: 120px;
+        /* margin-left: 20px; */
         width: 260px;
         margin: 30px 0;
+        font-size: 15px;
     }
     .skill-sum img{
-        width: 35px;
+        width: 25px;
         margin-top: -2px;
         margin-right: 5px;
     }
+    
     .skill-sum .left li{
-        margin-left: 0px;
-        font-size: 20px;
-        padding: 4px 4px;
+        padding: 5px;
+        margin: 0px;
     }
     .skill-sum .right li{
-        margin-left: 0px;
-        font-size: 20px;
-        padding: 4px 4px;
+        padding: 5px;
+        margin: 0px;
     }
 }
