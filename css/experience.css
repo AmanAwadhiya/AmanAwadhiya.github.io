@@ -266,7 +266,47 @@ img:hover{
 } */
 
 @media screen and (max-width: 480px){
-    .project{
+    #experience h1{
+        font-size: 20px;
+        border-bottom: solid red;
+        width: 300px;
+    }
+    
+    .proj-sum .cards{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    .card{
+        /* height:150px; */
+        /* font-size: 20px; */
+        margin-bottom: 15px;
+    }
+
+    .card .desc p{
+        padding: 0 10px;
+        background: transparent;
+    }
+    .card:hover p{
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+    .card:hover img{
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .cards .card a{
+        position: absolute;
+        top: 200px;
+    }
+
+    .cards h6{
+        display: none;
+    }
+    .certificates{
+        display: none;
+    }
+    .certificates .slider-track{
         display: none;
     }
 }
