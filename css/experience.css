@@ -1,4 +1,4 @@
-#experience h1{
+.project h1{
     font-family: 'Playpen Sans', cursive;
     font-size: 25px;
     font-weight: 700;
@@ -17,84 +17,6 @@
     /* margin: 0 30px 0 50px; */
     display: flex;
 }
-
-
-/*  */
-
-
-
-
-
-/* .cards .card {
-    position: relative;
-    height : 100px;  
-    margin : 150px 10px;
-    display : flex;
-    flex-direction : column;
-    border: 1px solid white;
-    transition : 0.3s ease-in-out;
-    border-radius : 15px;
-  } */
-    /* max-width : 300px; */
-    /* background-color : #fff; */
-    /* margin-top: 150px; */
-    /* padding : 20px 15px; */
-    /* display: block;
-    float: left; */
-    /* box-shadow : 0 5px 20px rgba(0,0,0,0.5); */
-
-
- /* .card:hover {
-    height : 150px;    
-  }
-  
-  
- .card .image {
-    position : relative;
-    font-family: 'Tilt Neon', sans-serif;
-    text-align: center;
-    
-    font-size: 25px;
-    width: 370px;
-    margin-top: 80px;
-    top : -50%;
-    z-index : 1;
-} */
-  /* width : 260px; */
-  /* height : 260px; */
-  /* left: 8px; */
-  /* box-shadow : 0 5px 20px rgba(0,0,0,0.2); */
-  
- /* .card  img {
-    max-width : 100%;
-    border-radius : 15px;
-  }
-  
- .card .content {
-    position : relative;
-    font-size: 40px;
-    top : -100px;
-    padding : 10px 15px;
-    color : #111;
-    text-align : center;
-    visibility : hidden;
-    opacity : 0;
-    transition : 0.3s ease-in-out;
-  }
-  
- .card:hover .content {
-     margin-top : 30px;
-     visibility : visible;
-     opacity : 1;
-     transition-delay: 0.2s;
-  } */
-
-
-
-
-
-  /*  */
-
 
 .card {
     margin: 0 5px;
@@ -171,7 +93,14 @@
     cursor: default;
     padding-left: 10px;
 }
-
+.certificates h1{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    /* margin-left: 100px; */
+    padding-top: 20px;
+}
 .certificates .slider-track{
     padding: 20px 0 80px 0;
     margin: 0 30px;
@@ -266,7 +195,7 @@ img:hover{
 } */
 
 @media screen and (max-width: 480px){
-    #experience h1{
+    .project h1{
         font-size: 20px;
         border-bottom: solid red;
         width: 300px;
@@ -296,17 +225,25 @@ img:hover{
         margin-bottom: 10px;
     }
     .cards .card a{
-        position: absolute;
-        top: 200px;
+        position: absolute; 
+        /* top: 100px; */
     }
 
     .cards h6{
         display: none;
     }
-    .certificates{
-        display: none;
+    .certificates h1{
+        border-bottom: solid red;
+        width: 150px;
+        font-size: 20px;
     }
+    
     .certificates .slider-track{
-        display: none;
+        margin: 0px;
+        height: 400px;
+    }
+    .certificates img{
+        width: 200px;
+        padding: 6px 0;
     }
 }
