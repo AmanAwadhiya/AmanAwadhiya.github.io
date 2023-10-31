@@ -13,6 +13,7 @@
     width: 60%;
     font-size: 20px;
     font-family: 'Tilt Neon', sans-serif;
+    text-align: justify;
     margin: 40px;
     margin-bottom: 0px;
 }
@@ -102,12 +103,31 @@ textarea {
 }
 
 @media screen and (max-width: 480px){
-
-  #contact{
-    display: none;
+  .contact{
+    margin: 0px;
+    height: 500px;
   }
+  .contact h1{
+    border-bottom: solid red;
+    width:140px;
+    font-size: 20px;
+  }
+
+  .cont-sum p{
+    width: 400px;
+    margin: 10px;
+  }
+
   .email i{
-    display: none;
+    margin-left: 50px;
+  }
+  .email span{
+    font-size: 20px;
+  }
+
+  .email p{
+    margin-top: 40px;
+    font-size: 30px;
   }
   form{
     display: none;
@@ -116,4 +136,5 @@ textarea {
     display: none;
     opacity: 0;
   }
+
 }
