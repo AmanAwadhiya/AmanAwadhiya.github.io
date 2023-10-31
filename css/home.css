@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 } */
 
 .max-width{
-    max-width: 1300px;
+    max-width:1400px;
     padding: 0 80px;
     margin: auto;
 }
@@ -100,12 +100,6 @@ body::-webkit-scrollbar {
   font-family: 'Tilt Neon', sans-serif;
 } 
 
-/* .sidebar li{
-  list-style: none;
-  font-size: 25px;
-  background: transparent;
-  padding: 10px;
-} */
 
 .sidebar ul{
   padding: 10px;
@@ -154,11 +148,14 @@ body::-webkit-scrollbar {
   color: black;
   background-color:transparent;
 }
+.sidebar .discord i{
+  font-size: 18px;
+}
 
 #particles-js{
   height:57vh;
   width: 100%;
-  max-width: 1450px;
+  padding: 0px;
 }
 
 .red{
@@ -227,6 +224,7 @@ body::-webkit-scrollbar {
   }
 }
 
+
 @media screen and (max-width: 480px){
   
   .max-width{
@@ -253,12 +251,13 @@ body::-webkit-scrollbar {
   }
   
   .sidebar{
-    /* display: none; */
-    position: absolute;
+    display: none;
+    /* position: absolute;
     top: 100px;
+    right: -100px; */
   }
-  .sidebar ul{
-    transform: translate(-235px,0);
+  /* .sidebar ul{
+    transform: translate(-25px,0);
   }
   .sidebar ul li{
     padding:2px;
@@ -279,7 +278,7 @@ body::-webkit-scrollbar {
   }
   .sidebar .discord{
     display: none;
-  }
+  } */
   #particles-js{
     display: none;
   }
