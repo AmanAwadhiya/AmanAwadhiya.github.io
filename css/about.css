@@ -147,7 +147,7 @@ h4 span{
     }
     .about h1{
         font-size: 20px;
-        width: 114px;
+        width: 32%;
         /* margin-left: 25px; */
     }
     .about h4{
@@ -208,7 +208,7 @@ h4 span{
     .edu-sum .collage{
         position: relative;
         top: -10px;
-        font-size: 15px;
+        font-size: 12px;
         background: transparent;
     }
     .edu-sum .edu-about{
@@ -246,5 +246,24 @@ h4 span{
     .skill-sum .right li{
         padding: 5px;
         margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .education{
+        width:380px;
+    }
+    .edu-sum p span{
+        margin-left: 117px;
+    }
+    .resume{
+        top: 280px;
+        left: -80px;
+    }
+   
+    .skill-sum{
+        top: -10px;
+        left: 160px;
+        font-size: 16px;
     }
 }
