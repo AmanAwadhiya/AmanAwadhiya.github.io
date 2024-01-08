@@ -1,64 +1,70 @@
 .contact{
     /* border: 1px solid white; */
-    margin-top: 350px;
-    height: 60vh;
+    margin-top: 80rem;
+    width: 55%;
 }
 .contact h1{
-    font-size: 25px;
+    font-size: 4rem;
     font-weight: 700;
     font-family: 'Playpen Sans', cursive;
+    border-bottom: 0.5rem red solid;
+    width: 28rem;
 }
 
 .cont-sum p{
-    width: 60%;
-    font-size: 20px;
+    font-size: 3.5rem;
     font-family: 'Tilt Neon', sans-serif;
     text-align: justify;
-    margin: 40px;
-    margin-bottom: 0px;
+    margin-left: 5rem;
+    margin-top: 2rem;
 }
 .email i{
-  margin-left: 100px;
-  font-size: 25px;
+  margin-left: 15rem;
+  margin-top: 0.5rem;
+  font-size: 4rem;
   display: inline;
   float: left;
 }
 .email span{
   font-family: 'Tilt Neon', sans-serif;
-  margin-left: 20px;
+  margin-left: 3rem;
+  font-size: 3.5rem;
 }
 .email p{
-    margin: 50px;
-    font-size: 40px;
+    margin: 15rem;
+    font-size: 5rem;
     font-family: 'Tilt Neon', sans-serif;
+    font-weight: 1000;
     color: red;
 }
-form { 
-    max-width:400px; 
-    margin: -350px 0 10px 820px; 
+form {
+  width: 60%;
+  /* position: absolute; */
+  margin-top: -65rem;
+  margin-left: 153rem;
 }
 
 .feedback-input {
   color:white;
   font-family: 'Tilt Neon', sans-serif;
   font-weight:500;
-  font-size: 18px;
+  /* font-size: 2rem; */
   border-radius: 5px;
-  line-height: 22px;
+  line-height: 1;
   background-color: transparent;
-  border:2px solid #ffffff;
+  border:0.2rem solid #ffffff;
   transition: all 0.3s;
   padding: 13px;
-  margin-bottom: 15px;
+  margin-bottom: 2rem;
   width:100%;
   box-sizing: border-box;
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #ff0000; }
+.feedback-input:focus { border:0.2rem solid #ff0000; }
 
 textarea {
-  height: 150px;
+  height: 15rem;
   line-height: 150%;
   resize:vertical;
 }
@@ -71,7 +77,7 @@ textarea {
   border:0;
   cursor:pointer;
   color:white;
-  font-size:24px;
+  font-size:4rem;
   padding-top:10px;
   padding-bottom:10px;
   transition: all 0.3s;
@@ -83,65 +89,116 @@ textarea {
 
 .btn{
   position: fixed;
-  display: none;
+  /* display: none; */
   bottom: 40px;
   right: 6px;
-  font-size: 20px;
+  font-size: 3.5rem;
+  border-radius: 3rem 0 0 3rem;
   border: none;
   outline: none;
   background-color: rgb(255, 0, 0);
   color: white;
   cursor: pointer;
-  padding: 7px 11px;
-  border-radius: 20px;
+  padding: 0.9rem 1.65rem;
+  border-radius: 50px;
 }
 .rights{
     text-align: center;
-    margin: 10px;
-    font-size: 15px;   
+    /* width: 30%; */
+    /* margin: 100rem 0; */
+    font-size: 3rem;   
     font-family: 'Tilt Neon', sans-serif;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
   .contact{
-    margin: 0px;
-    height: 300px;
+    width: 100%;
   }
   .contact h1{
-    border-bottom: solid red;
-    width:140px;
-    font-size: 20px;
+    font-size: 3.5rem;
+    width: 25rem;
   }
-
   .cont-sum p{
-    width: 100%;
-    margin: 10px;
-    font-size: 18px;
+    margin: 1rem;
   }
-
-  .email i{
-    margin-left: 40px;
-  }
-  .email span{
-    font-size: 18px;
-  }
-
   .email p{
-    margin-top: 40px;
-    font-size: 25px;
-    text-align: center;
+    margin: 5rem 15rem;
   }
   form{
-    display: none;
+    width: 95%;
+    margin: 0 3rem;
+    position:static;
+    margin-top: 0;
+  }
+  .feedback-input{
+    padding:2rem;
   }
   .btn{
-    display: none;
     opacity: 0;
-    left: 100px;
-    right: 100px;
   }
   .rights{
-    font-size: 12px;
+    margin-top: 4rem;
   }
+}
+@media screen and (max-width:414px){
+  .email i{
+    margin-left: 10rem;
+  }
+  .email p{
+    margin-left: 10rem;
+  }
+}
 
+@media screen and (max-width: 320px){
+  .email i{
+    margin-left: 5rem;
+  }
+  .email p{
+    margin-left: 5rem;
+  }
+}
+@media screen and (min-width:601px){
+  .contact{
+    margin-top: 60rem;
+  }
+  .email p{
+    margin-top: 10rem;
+  }
+  form {
+    margin-top: -70rem;
+    margin-left: 115rem;
+  }
+}
+
+@media screen and (min-width:1024px){
+  form {
+    margin-top: -60rem;
+    margin-left: 120rem;
+  }
+  .feedback-input{
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width:1440px){
+  .contact{
+    margin-top: 75rem;
+  }
+  form {
+    margin-top: -60rem;
+    margin-left: 155rem;
+  }
+}
+@media screen and (min-width:1600px){
+  form {
+    margin-top: -60rem;
+    margin-left: 140rem;
+  }
+}
+@media screen and (min-width:2560px){
+  .cont-sum p{
+    margin-top: 4rem;
+  }
+  form {
+    margin-left: 190rem;
+  }
 }
