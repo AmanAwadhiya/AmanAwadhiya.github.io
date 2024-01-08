@@ -10,7 +10,7 @@
 
 .about{
     /* margin: 190px 100px 0 100px; */
-    margin-top: 10rem;
+    margin-top: 20rem;
     background: transparent;
 }
 
@@ -71,6 +71,7 @@ p span{
     /* border: 2px solid white; */
     /* margin: 0 40px; */
     margin-left: 15rem;
+    margin-top: 4rem;
 }
 
 .other label{
@@ -78,7 +79,6 @@ p span{
     border-bottom: 0.5rem solid red;
     font-size: 4rem;
     font-family: 'Playpen Sans', cursive;
-
 }
 
 .edu-sum p{
@@ -91,9 +91,10 @@ p span{
 .edu-sum p span{
     border: 2px solid rgb(255, 255, 255);
     border-radius: 50px;
-    margin-left: 84rem;
+    margin-right: 5rem;
     font-weight: 100;
     padding: 5px 10px;
+    float:right;
 }
 
 .edu-sum .collage{
@@ -122,7 +123,7 @@ p span{
 
 .skill-sum img{
     width: 7rem;
-    margin-top: -1rem;
+    margin-top: -0.37rem;
     margin-right: 2rem;
     border-radius: 50%;
 }
@@ -130,146 +131,39 @@ p span{
     margin-left: 20rem;
     display: flex;
     padding: 1rem;
-    /* width: 100%; */
+    width: 80%;
     background: transparent;
 }
 .skill-sum .right li{
     margin-left: 30rem;
     display: flex;
     padding: 1rem;
-    /* width: 100%; */
+    width: 80%;
 }
 
-@media screen and (max-width:1440px)
-{
-    .about h1{
-        width: 20rem;
-        font-size: 3.5rem;
-    }
-    
+@media screen and (max-width:600px) {
     .about{
-        margin-top: 28rem;
+        margin-top: 50rem;
     }
-    
     .about p{
-        font-size: 3rem;
-    }
-    .resume img{
-        width:35rem
-    }
-    .resume i{
-        margin-left: 20rem;
-    }
-    .other{
-        margin-left: 10rem;
-        margin-top: 7rem;
-    }
-    .other label{
-        font-size: 3.5rem;
-    }
-    .edu-sum p{
-        font-size: 3rem;
-    }
-    .edu-sum .collage{
-        font-size: 2.5rem;
-    }
-    .edu-sum .edu-about{
-        font-size: 3rem;
-    }
-    .skill-sum{
-        font-size: 3rem;
-    }
-    .skill-sum img{
-        width: 6rem;
-    }
-}
-
-@media screen and (max-width:1024px)
-{
-    .about{
-        padding: 0 10rem;
-    }
-    .resume img{
-        width:30rem
-    }
-    .resume i{
-        margin-left: 17rem;
-    }
-    .other{
-        margin-left: 3rem;
-        margin-top: 6rem;
-    }
-    .other label{
-        font-size: 3.5rem;
-    }
-    .edu-sum p{
-        font-size: 3rem;
-    }
-    .edu-sum p span{
-        margin-left: 63rem;
-    }
-    .edu-sum .collage{
-        font-size: 2.5rem;
-    }
-    .edu-sum .edu-about{
-        font-size: 3rem;
-        margin-right: 10rem;
-    }
-    .skill-sum img{
-        width: 6rem;
-    }
-    .skill-sum .left li{
-        margin-left: 10rem;
-    }
-}
-@media screen and (max-width:768px)
-{
-    .about{
-        margin-top: 40rem;
-    }
-    .resume img{
-        margin-left: 10rem;
-    }
-    .resume i{
-        margin-left: 14rem;
-    }
-    .other{
-        margin-top: 0rem;
-    }
-    .edu-sum p span{
-        margin-left: 55rem;
-    }
-    .skill-sum .right li{
-        margin-left: 20rem;
-    }
-}
-
-@media screen and (max-width: 426px){
-
-    .about{
-        padding: 8rem;
-        margin-top: 30rem;
-    }
-
-    .about p{
-        margin: 0;
+        margin: 0 1rem;
     }
     .about-more{
         display: block;
     }
     .resume{
         position: absolute;
-        margin-top: 50rem;
+        margin-top: 65rem;
         /* display: flex; */
     }
     .resume img{
-        width: 28rem;
+        width: 30rem;
         margin: 0rem 0 8rem 8rem;
     }
     .resume i{
         position: absolute;
         margin-left: -26rem;
-        margin-top: 35rem;
+        margin-top: 37rem;
         font-size: 3.5rem;
         padding: 1rem 3rem 1.5rem 3rem;
     }
@@ -278,80 +172,173 @@ p span{
     }
     .other{
         margin: 0;
-        padding: 0 3rem;
     }
     .edu-sum p{
-        margin-top: 2rem;
-        margin-left: 0;
+        margin: 2rem;
+        margin-bottom: 0;
     }
     .edu-sum p span{
         border:none;
         font-weight: 800;
-        margin-left: 36rem;
         padding: 2px 4px;
-    }
-    .edu-sum .collage{
-        font-size: 2.4rem;
+        margin-right: 0;
     }
     .edu-sum .edu-about{
-        margin-right: 0;
+        margin: 2rem 1rem;
     }
     .skill-sum{
         display: block;
     }
     .skill-sum .left li{
-        margin-left: 40rem;
+        margin-left: 50rem;
+        width: 50%;
     }
     .skill-sum .right li{
-        margin-left: 40rem;
+        margin-left: 50rem;
+        width: 50%;
     }
-} 
-@media screen and (max-width: 376px)
+}
+@media screen and (max-width:414px)
 {
-    .about{
-        margin-top: 35rem;
-    }
     .resume{
-        margin-top: 60rem;
+        margin-top: 70rem;
     }
     .resume img{
-        width: 25rem;
-        margin-left: 5rem;
+        margin: 0;
+    }
+    .skill-sum .left li{
+        margin-left: 35rem;
+        width: 60%;
+    }
+    .skill-sum .right li{
+        margin-left: 35rem;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 376px)
+{
+    
+}
+  
+@media screen and (max-width: 320px)
+{
+    .resume img{
+        width: 28rem;
     }
     .resume i{
         margin-left: -25rem;
-        margin-top: 31rem;
-    }
-    .edu-sum p span{
-        margin-left: 23rem;
     }
     .skill-sum .left li{
-        margin-left: 29.8rem;
+        margin-left: 27rem;
+        width: 70%;
     }
     .skill-sum .right li{
-        margin-left: 29.8rem;
+        margin-left: 27rem;
+        width: 70%;
     }
 }
-
-@media screen and (max-width: 320px)
-{
+@media screen and (min-width:601px){
     .about{
+        padding: 0 5rem;
         margin-top: 35rem;
-        padding:0 7rem;
     }
-    .resume{
-        margin-top: 60rem;
+    .resume img{
+        width:30rem;
+        margin-left: 10rem;
+    }
+    .resume i{
+        margin-left: 15rem;
     }
     .other{
-        padding: 0 2rem;
-    }
-    .edu-sum p span{
-        margin-left: 23rem;
+        margin-left: 0rem;
     }
     .skill-sum .left li{
-        margin-left: 29rem;
-    }
-    .skill-sum .right li{
-        margin-left: 29rem;
+        margin-left: 10rem;
     }
 }
+@media screen and (min-width:768px){
+    .resume i{
+        margin-left: 14rem;
+    }
+    .skill-sum .right li{
+        margin-left: 20rem;
+    }
+}
+@media screen and (min-width:1024px){
+    .about{
+        padding: 0 5rem;
+    }
+    .resume img{
+        width:35rem
+    }
+    .resume i{
+        margin-left: 15rem;
+    }
+    .other{
+        margin-left: 0rem;
+    }
+    .skill-sum .left li{
+        margin-left: 15rem;
+    }
+}
+@media screen and (min-width:1440px){
+    .about{
+        padding: 0 10rem;
+        margin-top: 25rem;
+    }
+    .resume img{
+        width:40rem;
+        margin: 10rem 5rem 5rem 10rem;
+    }
+    .resume i{
+        margin-left: 20rem;
+    }
+    .skill-sum li{
+        margin-top: 1rem;
+    }
+}
+@media screen and (min-width:1600px){
+    .resume img{
+        margin-right: 0;
+    }
+    .other{
+        margin-left: 10rem;
+    }
+    
+}
+@media screen and (min-width:1920px) {
+    .about h1{
+        width: 23rem;
+        font-size: 4rem;
+    }
+    .about p{
+        font-size: 3.5rem;
+    }
+    .other{
+        margin-left: 10rem;
+    }
+    .other label{
+        font-size: 4rem;
+    }
+    .edu-sum p{
+        font-size: 3.5rem;
+    }
+    .edu-sum .collage{
+        font-size: 3rem;
+    }
+    .edu-sum .edu-about{
+        font-size: 3.5rem;
+    }
+    .skill-sum{
+        font-size: 3.5rem;
+    }
+    .skill-sum img{
+        width: 6rem;
+    }
+    .skill-sum .left li{
+        margin-left: 20rem;
+    }
+    .skill-sum .right li{
+        margin-left: 20rem;
+    }
+  }
