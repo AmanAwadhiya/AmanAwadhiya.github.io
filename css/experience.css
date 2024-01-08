@@ -4,7 +4,7 @@
     font-weight: 700;
     border-bottom: 0.5rem solid rgb(255, 0, 0);
     width: 60rem;
-    margin-top: 4rem;
+    padding-top: 10rem;
     /* margin-left: 100px; */
 }
 .proj-sum{
@@ -23,7 +23,7 @@
     text-align: center;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 3.5rem;
-    height: 30rem;
+    height: 32rem;
 }
 
 .card img{
@@ -105,12 +105,13 @@
 .certificates .img{
     overflow: hidden;  
     display: block;
+    width: 48%; 
     float: left;
     border-radius: 20px;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
 }
 .certificates img{
-    width: 54rem; 
+    width: 100%; 
     opacity: 0.6;
     border-radius: 20px;
     /* margin: 0 5px;    */
@@ -190,84 +191,18 @@ img:hover{
     top: 0;
     transform: rotateZ(100deg);
 } */
-
-@media screen and (max-width:1440px)
-{
+@media screen and (max-width: 600px){
     .project h1{
         font-size: 3.5rem;
         width: 53rem;
     }
-    .card {
-        font-size: 3rem;
-    }
-    .card .desc p{
-        font-size: 3rem;
-    }
-    /* .card:hover p{
-        margin-top: -6rem;
-        margin-bottom: 7rem;
-    } */
-    .card:hover .card-name{
-        margin-top: -12rem;
-    margin-bottom: 12rem;
-    }
-    .cards .card a{
-        margin-top: -7rem;
-    }
-    .certificates h1{
-        font-size: 3.5rem;
-        width: 26rem;
-    }
-    .certificates img{
-        width: 50rem;
-    }
-}
-
-@media screen and (max-width:1024px){
     .proj-sum .cards{
-        padding: 1.5rem 2rem;
-    }
-    .card{
-        margin: 0 0.5rem;
-        /* height: 26rem; */
-    }
-    .card .desc p{
-        padding-top: 1rem;
-        font-size: 2.8rem;
-    }
-    
-    .certificates .img{
-        padding: 0 0.6rem;
-    }
-    .certificates img{
-        width: 44rem;
-    }
-}
-
-@media screen and (max-width:768px){
-    .card{
-        border-radius: 20px;
-        /* height: 30rem; */
-    }
-    .card:hover img{
-        margin-top: -3rem;
-        margin-bottom: 3rem;
-    }
-    .certificates img{
-        width: 41rem;
-    }
-}
-@media screen and (max-width: 426px){
-    .project h1{
-        font-size: 3.5rem;
-    }
-    .proj-sum .cards{
-        padding: 0 3rem ;
+        padding: 0rem ;
         display:block;
     }
     .card{
         margin-bottom: 3rem ;
-        height: 32rem;
+        height: 35rem;
     }
     .card img{
         height: 20rem;
@@ -276,34 +211,38 @@ img:hover{
         font-size: 3.1rem;
     }
     .card:hover p{
-        margin-top: -8rem;
-        margin-bottom: 8rem ;
+        margin-top: -6rem;
+        margin-bottom: 6rem ;
     }
     .cards h6{
         display: none;
     }
     .certificates h1{
         font-size: 3.5rem;
+        width: 25rem;
     }
     .certificates .slider-track{
-        padding: 3rem;
-    }
-    .certificates img{
-        width: 43rem;
-        margin: 1.5rem 0.2rem;
+        padding: 0rem;
     }
 }
-
+@media screen and (max-width:414px)
+{
+    .card .desc p{
+        font-size: 2.8rem;
+    }
+    .certificates .img{
+        padding: 1.5rem 0.5rem;
+    }
+}
 @media screen and (max-width: 376px){
     .card{
-        height: 31rem;
+        height: 34rem;
     }
     .card .desc p{
         font-size: 2.6rem;
     }
-    .certificates img{
-        width: 37rem;
-        margin: 1.3rem 0.1rem;
+    .certificates .img{
+        padding: 1.6rem 0.5rem;
     }
 }
 
@@ -311,64 +250,70 @@ img:hover{
     .card .desc p{
         font-size: 2.5rem;
     }
-    .certificates img{
-        width: 36rem;
-        margin: 1.3rem 0.1rem;
+    .certificates .img{
+        padding: 1.3rem 0.5rem;
     }
 }
-/* @media screen and (max-width: 480px){
-    .project h1{
-        font-size: 20px;
-        border-bottom: solid red;
-        width: 300px;
-    }
-    
-    .proj-sum .cards{
-        display: block;
-        margin: 0px;
-        padding: 0px;
-    }
-    .card{
-        margin-bottom: 15px;
-    }
 
+@media screen and (min-width:601px){
+    .card {
+        font-size: 3rem;
+        height: 28rem;
+    }
     .card .desc p{
-        padding: 0 10px;
-        background: transparent;
+        font-size: 2.7rem;
     }
     .card:hover p{
-        margin-top: -40px;
-        margin-bottom: 40px;
+        margin-top: -6rem;
+        margin-bottom: 6rem ;
     }
-    .card:hover img{
-        margin-top: -10px;
-        margin-bottom: 10px;
-    }
-    .cards .card a{
-        position: absolute; 
-    }
-
-    .cards h6{
-        display: none;
-    }
-    .certificates h1{
-        border-bottom: solid red;
-        width: 150px;
-        font-size: 20px;
-    }
-    
-    .certificates .slider-track{
-        margin: 0px;
-        height: 400px;
-    }
-    .certificates img{
-        width: 170px;
-        padding: 6px 0;
+    .certificates .img{
+        width: 23%;
+        padding:0.5rem 1rem;
     }
 }
 
-@media only screen and (max-width: 426px){
-    .card .desc p{
-        font-size: 18px;
+@media screen and (min-width:1024px){
+    .proj-sum .cards{
+        padding: 1rem 2rem;
     }
-} */
+    .card {
+        height: 30rem;
+    }
+}
+@media screen and (min-width:1440px){
+    .card {
+        font-size: 3.5rem;
+        height: 32rem;
+    }
+    .card .desc p{
+        font-size: 2.6rem;
+    }
+    .cards .card a{
+        margin-top: -4.5rem;
+    }
+    .certificates .img{
+        width: 24%;
+    }
+}
+@media screen and (min-width:1600px){
+    .card {
+        height: 30rem;
+    }
+    .card .desc p{
+        font-size: 2.4rem;
+    }
+}
+@media screen and (min-width:1920px){
+    .card .desc p{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (min-width:2560px){
+    .card {
+        height: 37rem;
+    }
+    .card .desc p{
+        font-size: 2.9rem;
+    }
+}
